@@ -1,9 +1,8 @@
-# games
+# Games
 
 <html>
 <head>
-<title>Simon Tatham's Portable Puzzle Collection</title>
-<link rel="stylesheet" type="text/css" href="../sitestyle.css" name="Simon Tatham's Home Page Style">
+<link rel="stylesheet" type="text/css" href="../sitestyle.css" name="Games">
 <style type="text/css">
 span.puzzle {display: -moz-inline-box;
 	     display: inline-block;
@@ -19,39 +18,10 @@ p.announcement { margin: 1em; padding: 1em; border: 0.3em solid red; }
 </style>
 </head>
 <body>
-<h1 align=center>Simon Tatham's Portable Puzzle Collection</h1>
+<h1 align=center>Puzzle Collection</h1>
 
 <h2>Introduction</h2>
 
-<p>
-This page contains a collection of small computer programs which
-implement one-player puzzle games. All of them run natively on Unix
-(GTK) and on Windows. They can also be played on the web, as Java or
-Javascript applets.
-
-<p class="announcement">2023-09-20: I'm sorry to say that I'm no
-longer going to be able to build the MacOS version of these puzzles.
-My Mac was very old and had been struggling for a while; it's now
-stopped working, and I don't intend to buy a new one. If someone else
-would like to volunteer to maintain the Mac front end code and provide
-a downloadable application, I'll help them get started, and link to
-their site once it's up and running. Sorry, Mac users. In the
-meantime, there's always the web version...
-
-<p>
-I wrote this collection because I thought there should be more small
-desktop toys available: little games you can pop up in a window and
-play for two or three minutes while you take a break from whatever
-else you were doing. And I was also annoyed that every time I found a
-good game on (say) Unix, it wasn't available the next time I was
-sitting at a Windows machine, or vice versa; so I arranged that
-everything in my personal puzzle collection will happily run on both
-those platforms and more. When I find (or perhaps invent) further
-puzzle games that I like, they'll be added to this collection and will
-immediately be available on both platforms. And if anyone feels like
-writing any other front ends for platforms I don't support (which
-people already have) then all the games in this framework will
-immediately become available on another platform as well.
 
 <h2>The games</h2>
 
@@ -62,24 +32,11 @@ inventing the rules of any of these puzzles. (I don't even claim
 authorship of all the code; some of the puzzles below have been
 submitted by other authors.)
 
-<p>
-Below each image are two links to versions of the puzzle you can
-potentially play on the web. The 'js' link (and also the puzzle image
-itself) links to a version based on JavaScript and WebAssembly. The
-'java' link is now probably obsolete: it links to a Java applet, which
-most browsers don't support any more.
-
-<p>
-Also below each image is a link to the Windows binary for the game,
-and a link to the manual. For all other platforms, the games are
-provided in a single bundle, so scroll down to the
-<a href="#download">Download</a>
-section to get them all.
 
 <p>
 <div class="outer" align="center">
 
-<span class="puzzle"><table><tr><th align="center">Black Box</th></tr><tr><td align="center"><a href="js/blackbox.html"><img style="margin: 0.5em" alt="" title="Ball-finding puzzle" width=150 height=150 border=0 src="blackbox-web.png" /></a></td></tr><tr><td align="center" style="font-size: 70%"><code>[</code> <a href="java/blackbox.html">java</a> | <a href="js/blackbox.html">js</a> | <a href="doc/blackbox.html#blackbox">manual</a> <code>]</code><br><code>[</code> <a href="blackbox.exe"><code>blackbox.exe</code></a> <code>]</code></td></tr><tr><td align="center">Find the hidden balls in the box by bouncing laser beams off them.</td></tr></table></span>
+<span class="puzzle"><table><tr><th align="center">Black Box</th></tr><tr><td align="center"><a href="blackbox.html"><img style="margin: 0.5em" alt="" title="Ball-finding puzzle" width=150 height=150 border=0 src="blackbox-web.png" /></a></td><tr><td align="center">Find the hidden balls in the box by bouncing laser beams off them.</td></tr></table></span>
 <span class="puzzle"><table><tr><th align="center">Bridges</th></tr><tr><td align="center"><a href="js/bridges.html"><img style="margin: 0.5em" alt="" title="Bridge-placing puzzle" width=150 height=150 border=0 src="bridges-web.png" /></a></td></tr><tr><td align="center" style="font-size: 70%"><code>[</code> <a href="java/bridges.html">java</a> | <a href="js/bridges.html">js</a> | <a href="doc/bridges.html#bridges">manual</a> <code>]</code><br><code>[</code> <a href="bridges.exe"><code>bridges.exe</code></a> <code>]</code></td></tr><tr><td align="center">Connect all the islands with a network of bridges.</td></tr></table></span>
 <span class="puzzle"><table><tr><th align="center">Cube</th></tr><tr><td align="center"><a href="js/cube.html"><img style="margin: 0.5em" alt="" title="Rolling cube puzzle" width=150 height=150 border=0 src="cube-web.png" /></a></td></tr><tr><td align="center" style="font-size: 70%"><code>[</code> <a href="java/cube.html">java</a> | <a href="js/cube.html">js</a> | <a href="doc/cube.html#cube">manual</a> <code>]</code><br><code>[</code> <a href="cube.exe"><code>cube.exe</code></a> <code>]</code></td></tr><tr><td align="center">Pick up all the blue squares by rolling the cube over them.</td></tr></table></span>
 <span class="puzzle"><table><tr><th align="center">Dominosa</th></tr><tr><td align="center"><a href="js/dominosa.html"><img style="margin: 0.5em" alt="" title="Domino tiling puzzle" width=150 height=150 border=0 src="dominosa-web.png" /></a></td></tr><tr><td align="center" style="font-size: 70%"><code>[</code> <a href="java/dominosa.html">java</a> | <a href="js/dominosa.html">js</a> | <a href="doc/dominosa.html#dominosa">manual</a> <code>]</code><br><code>[</code> <a href="dominosa.exe"><code>dominosa.exe</code></a> <code>]</code></td></tr><tr><td align="center">Tile the rectangle with a full set of dominoes.</td></tr></table></span>
