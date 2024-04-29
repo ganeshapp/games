@@ -29,7 +29,8 @@ submitted by other authors.)
 <p>
 <div class="outer" align="center">
 
-<span class="puzzle"><table><tr><th align="center">Black Box</th></tr><tr><td align="center"><a href="blackbox.html"><img style="margin: 0.5em" alt="" title="Ball-finding puzzle" width=150 height=150 border=0 src="blackbox-web.png" /></a></td><tr><td align="center">Find the hidden balls in the box by bouncing laser beams off them.</td></tr></table></span>
+<span class="puzzle">
+<table><tr><th align="center">Black Box</th></tr><tr><td align="center"><a href="blackbox.html"><img style="margin: 0.5em" alt="" title="Ball-finding puzzle" width=150 height=150 border=0 src="blackbox-web.png" /></a></td><tr><td align="center">Find the hidden balls in the box by bouncing laser beams off them.</td></tr></table></span>
 <span class="puzzle"><table><tr><th align="center">Bridges</th></tr><tr><td align="center"><a href="bridges.html"><img style="margin: 0.5em" alt="" title="Bridge-placing puzzle" width=150 height=150 border=0 src="bridges-web.png" /></a></td></tr>
 <tr><td align="center">Connect all the islands with a network of bridges.</td></tr></table></span>
 <span class="puzzle"><table><tr><th align="center">Cube</th></tr><tr><td align="center"><a href="cube.html"><img style="margin: 0.5em" alt="" title="Rolling cube puzzle" width=150 height=150 border=0 src="cube-web.png" /></a></td></tr><tr><td align="center">Pick up all the blue squares by rolling the cube over them.</td></tr></table></span>
