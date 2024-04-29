@@ -2,14 +2,14 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../sitestyle.css" name="Games">
+<link rel="stylesheet" type="text/css" href="sitestyle.css" name="Games">
 <style type="text/css">
 span.puzzle {display: -moz-inline-box;
-	     display: inline-block;
-	     margin-right: 10px;
-	     margin-bottom: 10px;
-	     vertical-align: top;
-	     width: 200px;}
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 200px;}
 span.puzzle table {width: 200px; align: top; }
 span.puzzle table p {width: 200px; }
 span.puzzle th {text-align: center; }
@@ -17,6 +17,7 @@ span.puzzle table,tr,th,td {border: none; }
 p.announcement { margin: 1em; padding: 1em; border: 0.3em solid red; }
 </style>
 </head>
+
 <body>
 
 The actual games in this collection were mostly not my invention;
