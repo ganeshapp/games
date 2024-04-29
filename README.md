@@ -18,11 +18,7 @@ p.announcement { margin: 1em; padding: 1em; border: 0.3em solid red; }
 </style>
 </head>
 <body>
-<h1 align=center>Puzzle Collection</h1>
-
-<h2>Introduction</h2>
-
-<h2>The games</h2>
+<h1 align=center>Games Collection</h1>
 
 The actual games in this collection were mostly not my invention;
 they are re-implementations of existing game concepts within my
